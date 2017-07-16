@@ -1,0 +1,126 @@
+#glaw {
+    margin-top: 5%;
+    margin-left: 20px;
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+}
+
+
+.blok1, .blok2, .blok3, .blok4, .blok5 {
+    border-radius: 4px;
+    box-shadow: rgba(0,0,0,1.2) 0 1px 3px;
+}
+
+
+.blok1 {
+    margin:6px 3px 3px 3px;
+    background: #C6D4FF;
+    width:50%;
+    height:auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.blok2 {
+    margin:6px 3px 3px 3px;
+    background: #C6D4FF;
+    width: 50%;
+    height:auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.blok3 {
+    margin:6px 3px 3px 3px;
+    background: #C6D4FF;
+    width: 50%;
+    height:auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.blok4 {
+     float: left;
+     margin-top:-650px;
+     margin-left: 54%;
+     background: #C6D4FF;
+     width: 48%;
+     height: auto;
+     padding: 5px;
+     text-align: center;
+ }
+
+.blok5 {
+    float: left;
+    margin-top: -380px;
+    margin-left: 54%;
+    background: #C6D4FF;
+    width: 48%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+@media (max-width: 900px) {
+
+    .blok1 {
+        margin:6px 3px 3px 3px;
+        background: #C6D4FF;
+        width: 100%;
+        height:auto;
+        padding: 5px;
+        text-align: center;
+        position: static;
+    }
+
+    .blok2 {
+        margin:6px 3px 3px 3px;
+        background: #C6D4FF;
+        width: 100%;
+        height:auto;
+        padding: 5px;
+        text-align: center;
+        position: static;
+    }
+
+    .blok3 {
+        margin: 6px 3px 3px 3px;
+        background: #C6D4FF;
+        width: 100%;
+        height:auto;
+        padding: 5px;
+        text-align: center;
+        position: static;
+    }
+
+    .blok4 {
+        margin: 6px 3px 3px 3px;
+        background: #C6D4FF;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+        position: static;
+    }
+
+    .blok5 {
+        margin: 6px 3px 3px 3px;
+        background: #C6D4FF;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+        position: static;
+    }
+}
+
+@media (max-width: 400px){
+.blok1 {
+    margin-top: 220px;
+}
+}

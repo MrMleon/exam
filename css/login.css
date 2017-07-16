@@ -1,0 +1,37 @@
+body, html {
+    background-color: #ccccff;
+    color: #1e1e1e;
+    font-family: 'Comfortaa';
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+label {
+    font-size: 20px;
+}
+
+.form-row {
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.form-row input {
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 5px;
+    width: 287px;
+    border: 1px solid #ABADB3;
+    background-color: #256976;
+    color: white;
+    font-size: 18px;
+}
+
+.reg-form {
+    width: 416px;
+    margin: 20% auto;
+}
+
+

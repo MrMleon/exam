@@ -1,0 +1,43 @@
+#welcome {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+h3{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+table {
+    margin-left: 100px;
+    width: 500px;
+    height: auto;
+    color: black;
+    font-size: large;
+    border-spacing: 5px; /* Расстояние между ячейками */
+    border: 1px solid ;
+}
+
+tr {
+    margin-bottom: 4px;
+}
+
+td {
+    border: 1px solid;
+    text-align:center;
+    padding: 4px;
+}
+
+@media (max-width: 768px) {
+    #welcome {
+        margin-top: 250px;
+        margin-left: 15px;
+    }
+
+    h3{
+        margin-left: 4px;
+    }
+
+    table {
+        margin-left: 0;
+    }
+}
